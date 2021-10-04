@@ -1,0 +1,16 @@
+.instructor{
+    color: #45556f;
+ }
+ .instructor_icon a {
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+.instructor_icon a:hover{
+    color:crimson;
+    margin-left: 5px;
+}
+.instructor_name{
+ color: #2a2a2a;
+ font-weight: 700;
+}
