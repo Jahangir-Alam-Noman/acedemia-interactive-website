@@ -73,11 +73,11 @@
     },
     {
         "name": "C#",
-        "instructor": "Dan Brady",
+        "instructor": "Neil Flynn",
         "description": "C# is a general-purpose, multi-paradigm programming language. C# encompasses static typing, strong typing, lexically scoped, imperative,multi-paradigm programming language.",
         "price": 40,
         "id": 9,
         "img": "https://cdn.educba.com/academy/wp-content/uploads/2018/10/Top-Uses-of-C.jpg",
-        "img1": "https://academist.qodeinteractive.com/wp-content/uploads/2018/06/main-home-team-big-7.jpg"
+        "img1": "https://academist.qodeinteractive.com/wp-content/uploads/2018/06/main-home-team-big-2.jpg"
     }
 ]

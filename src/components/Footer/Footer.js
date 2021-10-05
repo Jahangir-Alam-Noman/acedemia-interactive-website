@@ -2,6 +2,7 @@ import React from 'react';
 import './Footer.css';
 import logo from '../../images/logo4.png';
 import { Card, Col, Row } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -21,40 +22,41 @@ const Footer = () => {
                             <a href="https://play.google.com/store/apps/details?id=net.sourceforge.opencamera&hl=en&gl=US"><i className="fa fa-camera" aria-hidden="true"></i></a>
                             <a href="https://www.globe.gov/"><i className="fa fa-globe" aria-hidden="true"></i></a>
 
-
                         </div>
                     </div>
                     <div className="col-md-3 ">
                         <div className="explore text-start px-5">
                             <h3 className="pb-3">Explore</h3>
-                            <p><a href="https://alison.com/courses/it?type=certificate">Start here</a></p>
-                            <p><a href="https://alison.com/courses/it?type=certificate">Blog</a></p>
-                            <p><a href="https://alison.com/courses/it?type=certificate">Register</a></p>
-                            <p><a href="https://alison.com/courses/it?type=certificate">Login</a></p>
+                            <p> <NavLink to="/home">Start here</NavLink></p>
+                            <p> <NavLink to="/courses">Blog</NavLink></p>
+                            <p> <NavLink to="/instructor">Register</NavLink></p>
+                            <p> <NavLink to="/about">Login</NavLink></p>
+
                         </div>
                     </div>
                     <div className="col-md-3">
                         <div className="explore text-start px-5">
                             <h3 className="pb-3">Success</h3>
-                            <p><a href="https://alison.com/courses/it?type=certificate">About</a></p>
-                            <p><a href="https://alison.com/courses/it?type=certificate">Success Story</a></p>
-                            <p><a href="https://alison.com/courses/it?type=certificate">Courses</a></p>
-                            <p><a href="https://alison.com/courses/it?type=certificate">Contact Us</a></p>
+                            <p> <NavLink to="/home">Home</NavLink></p>
+                            <p> <NavLink to="/courses">Courses</NavLink></p>
+                            <p> <NavLink to="/instructor">Instructors</NavLink></p>
+                            <p> <NavLink to="/about">About</NavLink></p>
                         </div>
                     </div>
                     <div className="col-md-3">
                         <div className="explore text-start px-5">
                             <h3 className="pb-3">Information</h3>
-                            <p><a href="https://alison.com/courses/it?type=certificate">Membership</a></p>
-                            <p><a href="https://alison.com/courses/it?type=certificate">Purchase guide</a></p>
-                            <p><a href="https://alison.com/courses/it?type=certificate">Privacy Policy</a></p>
-                            <p><a href="https://alison.com/courses/it?type=certificate">Terms of Services</a></p>
+                            <p> <NavLink to="/home">Membership</NavLink></p>
+                            <p> <NavLink to="/courses">Purchase guide</NavLink></p>
+                            <p> <NavLink to="/instructor">Privacy Policy</NavLink></p>
+                            <p> <NavLink to="/about">Terms of Services</NavLink></p>
+
                         </div>
                     </div>
 
                 </div>
                 <div className="row text-center">
-                    <p>&copy; 2021 Academic. All rights reserved.</p>
+                    <p>&copy; 2021 Academia. All rights reserved.</p>
                 </div>
             </div>
 

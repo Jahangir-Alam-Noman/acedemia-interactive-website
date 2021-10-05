@@ -1,16 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Alfa+Slab+One&family=Creepster&family=Fira+Sans+Extra+Condensed&family=Gochi+Hand&family=Lobster&family=Lobster+Two&family=Open+Sans&family=Pacifico&display=swap');
+.logo{
+  font-family: 'Creepster', cursive;
+  color: #1153e0;
+  text-decoration: none;
+}
+.logo:hover{
+  color: #ff993a;
+}
 .searchField{
-    margin-left: 15%;
+    margin-left: 10%;
 }
-.anchor{
-    margin-right: 25px;
+ .anchor{
+    transition: 0.3s ease;
+    color:black;
+    font-size: 20px;
     text-decoration: none;
-    font-weight: 500;
-    font-size:large;
-    color: black ;
-}
-.ancho:hover{
-   color: rgb(110, 243, 70);
-}
-.searchBtn{
+    padding: 10px 0;
+    margin: 0 20px;
+  }
+  .anchor:hover {
+    border-bottom: 4px solid #ff993a;
+    padding: 6px 0; 
+  }
+  .searchBtn{
     background-color: #ff993a;
 }

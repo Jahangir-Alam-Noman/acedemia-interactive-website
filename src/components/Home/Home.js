@@ -6,6 +6,7 @@ import banner1 from '../../images/banner-10.jpg';
 import banner2 from '../../images/banner-13.jpg';
 import Course from '../Course/Course';
 import { RingContext } from '../../App';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     const [courses] = useContext(RingContext);
@@ -65,6 +66,7 @@ const Home = () => {
                     }
 
                 </Row>
+                <Link to="/courses">  <button className="btn  btn-outline-warning mt-4 px-3 py-2">See more courses</button></Link>
             </div>
 
 

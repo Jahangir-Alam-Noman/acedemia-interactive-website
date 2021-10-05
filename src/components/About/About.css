@@ -1,6 +1,6 @@
 .about{
     background-color:#d6dce0 ;
-    height: 200px;
+    height: 180px;
 }
 .about a{
     text-decoration: none;
@@ -9,7 +9,11 @@
 .about_color{
 color:#385273 ;
 }
-.about_icon{
+.about_icon ,.choose_us{
     font-size: 60px;
     color: #ff993a;
+}
+.why_us{
+    padding-top: 60px;
+    padding-bottom: 70px;
 }

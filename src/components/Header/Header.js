@@ -8,20 +8,21 @@ const Header = () => {
         <div>
             <div >
                 <Navbar className="ps-5 navbar " bg="light" expand="lg ">
-                    <Navbar.Brand href="#" className="ps-3 fs-2">ACADEMIA</Navbar.Brand>
+                    <NavLink to="/home" className=" ps-3 fs-2 logo">ACADEMIA</NavLink>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
                         <Nav
                             className="mr-auto my-2  my-lg-0"
-                            style={{ maxHeight: '100px', marginLeft: '180px' }}
+                            style={{ maxHeight: '100px', marginLeft: '150px' }}
                             navbarScroll
                         >
                             <NavLink to="/home" className="anchor">Home</NavLink>
                             <NavLink to="/courses" className="anchor">Courses</NavLink>
-                            <NavLink to="/instructor" className="anchor">Instructor</NavLink>
+                            <NavLink to="/instructor" className="anchor">Instructors</NavLink>
                             <NavLink to="/about" className="anchor">About Us</NavLink>
 
                         </Nav>
+
                         <Form className="d-flex  searchField">
                             <FormControl
                                 type="search"
